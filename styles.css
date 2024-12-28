@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 0;
+    background-color: #afa5a5;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.course-container{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+.course-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    overflow: hidden;
+}
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+.course-content {
+    padding: 20px;
+}
+.course-content .course-type {
+    color: #c3060d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.course-content h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.course-content .fee {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.course-content .discount-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #880c80;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.course-content .discount-button:hover {
+    background: #880c80;
+}
